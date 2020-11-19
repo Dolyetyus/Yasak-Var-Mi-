@@ -1,3 +1,5 @@
+#Made By Dolyetyus
+
 import datetime
 from colorama import Fore, Back, init, Style
 import sys

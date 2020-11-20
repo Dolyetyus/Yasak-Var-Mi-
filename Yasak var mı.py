@@ -28,9 +28,10 @@ while app == 1:
                 print(Fore.GREEN+Style.BRIGHT+"Dışarı Çıkabilirsin")
                 time.sleep(5)
                 sys.exit()
-                                                            
+                
         print(Fore.RED+Style.BRIGHT+"Dışarı Çıkman Yasak")
         time.sleep(5)
+        sys.exit()
 
     else: 
         iş = input("Çalışıyor musunuz(E/H): ")
@@ -55,3 +56,4 @@ while app == 1:
 
         print(Fore.RED+Style.BRIGHT+"Dışarı Çıkman Yasak")
         time.sleep(5)
+        sys.exit()
